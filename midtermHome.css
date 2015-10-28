@@ -1,0 +1,93 @@
+/*Brian's Code*/
+.div1 {
+    text-align: center;
+    background-color: #5C73A9;
+    width:100%;
+    height: 30%;
+}
+.div2 {
+    width:100%;
+    float:left;
+    padding-bottom:50px;
+    background-color: #FDBA7C;
+    height:auto;
+    
+}
+.div2 h3 {
+    text-align: center;
+}
+.div3 {
+    clear:left;
+    float:right;
+    width:50%;
+    background-color: #FDE57C;
+    height:100%;
+    padding-bottom: 197px;
+}
+}
+.div3 ul{
+    text-align: center;
+    list-style-type: none;
+}
+}
+ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+.table tr td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+.table {
+    width: 50%;
+    float:left;
+    clear: left;  
+    background-color: #FDE57C;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.div4 {
+    float:left; 
+    clear:left;
+    background-color: #5C73A9;
+    width:100%;
+    height:100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.div4 p{
+    width:100%;
+    display:inline;
+    padding: 120px;
+}
+@media (max-width: 1000px) {
+    .div4 p{
+        display: inline;
+        padding: inherit;
+        margin: auto;
+    }
+}
+@media (max-width: 869px){
+    .div4 p{
+        display: block;
+        padding: inherit;
+    }
+}
+
+@media (max-width: 720px){
+    .div4 p{
+        display:block;
+    }
+    .div4{
+        margin-right: auto;
+        margin-left: auto;
+         width: 100%;
+    }
+}
+    
